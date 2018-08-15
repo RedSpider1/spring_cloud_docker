@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config_server/config_server.iml" filepath="$PROJECT_DIR$/config_server/config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config_server/config_server.iml" filepath="$PROJECT_DIR$/config_server/config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/order_service/order_service.iml" filepath="$PROJECT_DIR$/order_service/order_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order_service/order_service.iml" filepath="$PROJECT_DIR$/order_service/order_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product_service/product_service.iml" filepath="$PROJECT_DIR$/product_service/product_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring_cloud_docker.iml" filepath="$PROJECT_DIR$/.idea/spring_cloud_docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul_service/zuul_service.iml" filepath="$PROJECT_DIR$/zuul_service/zuul_service.iml" />
     </modules>
   </component>
 </project>
