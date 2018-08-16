@@ -10,7 +10,6 @@
         <module name="eureka_server" />
         <module name="order_service" />
         <module name="product_service" />
-        <module name="zuul_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,7 +17,6 @@
       <module name="eureka_server" target="1.8" />
       <module name="order_service" target="1.8" />
       <module name="product_service" target="1.8" />
-      <module name="zuul_service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
