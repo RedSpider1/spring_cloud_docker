@@ -18,9 +18,9 @@ public class OrderController {
 
     Logger logger = LoggerFactory.getLogger(OrderController.class);
 
-    @GetMapping("check")
-    public String check() {
-        return "this is order service";
+    @GetMapping("hello")
+    public String hello() {
+        return "hello, this is order service";
     }
 
     @GetMapping("{id}")
