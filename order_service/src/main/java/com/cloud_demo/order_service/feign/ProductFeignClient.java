@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author Yasin Shaw
  * @version v1.0
  */
-@FeignClient("user-service")
-public interface UserFeignClient {
+@FeignClient("product-service")
+public interface ProductFeignClient {
 
-    @GetMapping("/users/hello")
-    public String getHelloFromUser();
+    @GetMapping("/products/hello")
+    String getHelloFromProduct();
 
-    @GetMapping(value = "/users/{id}")
+    @GetMapping("/products/{id}")
     Product getProductById(@PathVariable("id") Long id);
 }
