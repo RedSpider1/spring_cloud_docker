@@ -2,6 +2,7 @@ package com.cloud_demo.order_service.controller;
 
 import com.cloud_demo.order_service.entity.Order;
 import com.cloud_demo.order_service.feign.ProductFeignClient;
+import com.cloud_demo.order_service.feign.UserFeignClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,9 @@ public class OrderController {
     @Autowired
     ProductFeignClient productFeignClient;
 
+    @Autowired
+    UserFeignClient userFeignClient;
+
     @GetMapping("hello")
     public String hello() {
         return "hello, this is order service";
@@ -33,7 +37,7 @@ public class OrderController {
         logger.info(String.format("Get order by id: %d", id));
         Order order = new Order();
         order.setOrderId(id);
-        order.setUser(null); // TODO get user from user service
+        order.setUser(userFeignClient.getProductById(id)); // TODO get user from user service
         order.setProduct(productFeignClient.getProductById(id));
         return order;
     }
