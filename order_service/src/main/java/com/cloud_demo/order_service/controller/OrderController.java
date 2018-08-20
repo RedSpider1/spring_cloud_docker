@@ -37,7 +37,7 @@ public class OrderController {
         logger.info(String.format("Get order by id: %d", id));
         Order order = new Order();
         order.setOrderId(id);
-        order.setUser(userFeignClient.getProductById(id)); // TODO get user from user service
+        order.setUser(userFeignClient.getUserById(id));
         order.setProduct(productFeignClient.getProductById(id));
         return order;
     }
