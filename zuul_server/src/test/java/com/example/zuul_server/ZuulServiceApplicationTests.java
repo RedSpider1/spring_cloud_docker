@@ -1,4 +1,4 @@
-package com.example.zuul_service;
+package com.example.zuul_server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
