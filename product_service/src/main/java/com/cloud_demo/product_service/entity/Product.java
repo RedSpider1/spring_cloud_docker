@@ -1,4 +1,4 @@
-package com.example.product_service.entity;
+package com.cloud_demo.product_service.entity;
 
 import lombok.Data;
 

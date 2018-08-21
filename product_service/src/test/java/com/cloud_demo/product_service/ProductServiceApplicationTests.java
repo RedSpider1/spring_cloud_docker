@@ -1,4 +1,4 @@
-package com.example.product_service;
+package com.cloud_demo.product_service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
