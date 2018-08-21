@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/order_service/order_service.iml" filepath="$PROJECT_DIR$/order_service/order_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/product_service/product_service.iml" filepath="$PROJECT_DIR$/product_service/product_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user_service/user_service.iml" filepath="$PROJECT_DIR$/user_service/user_service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zuul_service/zuul_service.iml" filepath="$PROJECT_DIR$/zuul_service/zuul_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul_server/zuul_service.iml" filepath="$PROJECT_DIR$/zuul_server/zuul_service.iml" />
     </modules>
   </component>
 </project>
