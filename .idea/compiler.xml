@@ -11,6 +11,7 @@
         <module name="order_service" />
         <module name="product_service" />
         <module name="user_service" />
+        <module name="zuul_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
