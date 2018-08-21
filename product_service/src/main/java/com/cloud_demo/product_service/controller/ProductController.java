@@ -1,9 +1,8 @@
-package com.example.product_service.controller;
+package com.cloud_demo.product_service.controller;
 
-import com.example.product_service.entity.Product;
+import com.cloud_demo.product_service.entity.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
