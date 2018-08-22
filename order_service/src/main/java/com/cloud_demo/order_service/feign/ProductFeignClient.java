@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @author Yasin Shaw
  * @version v1.0
  */
-@FeignClient(value = "zuul-server", path = "product-service")
+@FeignClient("product-service")
 public interface ProductFeignClient {
 
     @GetMapping("/products/hello")
