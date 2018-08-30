@@ -21,8 +21,7 @@ management:
 #    root: DEBUG
 
 zuul:
-  prefix: /api
   routes:
       order-service:
         path: /orders/**
-        strip-prefix: false
+#        strip-prefix: false
